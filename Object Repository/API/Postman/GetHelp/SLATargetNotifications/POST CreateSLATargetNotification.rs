@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>POST CreateSLATargetNotification</name>
+   <tag></tag>
+   <elementGuidId>711f1785-2b79-4f19-8fb2-5fa4c04336e2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\&quot;sLATargetRuleID\&quot;: 1,\n\t\&quot;enabled\&quot;: true,\n\t\&quot;createdByUserID\&quot;: 0,\n\t\&quot;sLATargetNotificationDetails\&quot;: [\n\t\t{\n\t\t\t\&quot;slaTargetNotificationID\&quot;: 0,\n\t\t\t\&quot;slaTargetTypeID\&quot;: 1,\n\t\t\t\&quot;targetNotificationValue\&quot;: 50,\n\t\t\t\&quot;targetNotificationComparisonValue\&quot;: \&quot;\u003e\&quot;,\n\t\t\t\&quot;targetNotificationComparisonTypeID\&quot;: 0,\n\t\t\t\&quot;createdByUserAccountID\&quot;: 0\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetNotificationID\&quot;: 0,\n\t\t\t\&quot;slaTargetTypeID\&quot;: 2,\n\t\t\t\&quot;targetNotificationValue\&quot;: 5,\n\t\t\t\&quot;targetNotificationComparisonValue\&quot;: \&quot;\u003c\&quot;,\n\t\t\t\&quot;targetNotificationComparisonTypeID\&quot;: 1,\n\t\t\t\&quot;createdByUserAccountID\&quot;: 0\n\t\t}\n\t]\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${HHD_API_Bearer}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${HHD_API_Url}/api/SLATargetNotification/CreateSLATargetNotification</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Url</defaultValue>
+      <description></description>
+      <id>db9e2331-f658-4224-8e57-bad30153320d</id>
+      <masked>false</masked>
+      <name>HHD_API_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Bearer</defaultValue>
+      <description></description>
+      <id>091fd61c-355e-4112-a152-07e9f0b0419d</id>
+      <masked>false</masked>
+      <name>HHD_API_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

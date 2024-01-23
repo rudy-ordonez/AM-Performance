@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>GET GetRuleConditionComparisonValueList</name>
+   <tag></tag>
+   <elementGuidId>eb50620d-fad4-4e73-90ce-499507cfe6bc</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${HHD_API_Bearer}</value>
+   </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${HHD_API_Url}/api/AutomationRules/3/RuleConditions/GetRuleConditionComparisonValueList/6</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Url</defaultValue>
+      <description></description>
+      <id>de1edd4f-5ff2-4887-8ace-550123b7a666</id>
+      <masked>false</masked>
+      <name>HHD_API_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Bearer</defaultValue>
+      <description></description>
+      <id>f5476b83-ff37-4817-b248-7fdc4cc59e3c</id>
+      <masked>false</masked>
+      <name>HHD_API_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

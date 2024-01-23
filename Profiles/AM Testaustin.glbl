@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>AM Testaustin</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://testaustin.tipwebhss.com/TipWebapi'</initValue>
+      <name>TIPWebAPI_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'AustinTest'</initValue>
+      <name>TIPWebAPI_Key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'oD3pwgfSdV'</initValue>
+      <name>TIPWebAPI_Phrase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ABC'</initValue>
+      <name>TIPWebAPI_Bearer</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

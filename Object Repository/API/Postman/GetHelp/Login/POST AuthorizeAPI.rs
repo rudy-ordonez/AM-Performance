@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>POST AuthorizeAPI</name>
+   <tag></tag>
+   <elementGuidId>e6a645d4-cadc-485b-a4c8-58f4ab91a603</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{ \&quot;SecretKey\&quot;: \&quot;${HHD_API_Key}\&quot;, \&quot;Passphrase\&quot;: \&quot;${HHD_API_Phrase}\&quot; }&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${HHD_API_Url}/api/Login/AuthorizeAPI</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Url</defaultValue>
+      <description></description>
+      <id>0e0ce9ea-1cfc-4416-98de-003e735ca310</id>
+      <masked>false</masked>
+      <name>HHD_API_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Key</defaultValue>
+      <description></description>
+      <id>3193a754-bc4d-4ea9-b831-d2dca0a87cb6</id>
+      <masked>false</masked>
+      <name>HHD_API_Key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Phrase</defaultValue>
+      <description></description>
+      <id>f2c48545-28b2-4477-8f62-09bf9ce07692</id>
+      <masked>false</masked>
+      <name>HHD_API_Phrase</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

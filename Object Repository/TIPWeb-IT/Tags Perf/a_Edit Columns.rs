@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Edit Columns</name>
+   <tag></tag>
+   <elementGuidId>0f784b76-84b9-4645-9a59-b3a13937543d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_ContentPlaceHolder1_RadGridTags_ctl00_ctl02_ctl00_LinkButtonColumns']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_RadGridTags_ctl00_ctl02_ctl00_LinkButtonColumns</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>33c8118d-47b0-482b-92a8-46aa187cd485</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>ShowHeaderMenu(event); return false;ShowHeaderMenu(event); return false;</value>
+      <webElementGuid>87063a5f-c8ff-4323-8e6a-daed8e9637b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_RadGridTags_ctl00_ctl02_ctl00_LinkButtonColumns</value>
+      <webElementGuid>c2d72d45-9ff5-4f6c-847c-b4af7ac42be4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Edit Columns</value>
+      <webElementGuid>f310a2e4-94b6-492e-bb85-d1a3972b6f0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:__doPostBack('ctl00$ContentPlaceHolder1$RadGridTags$ctl00$ctl02$ctl00$LinkButtonColumns','')</value>
+      <webElementGuid>a9a47a9e-3e42-4e09-8e7f-0d58e58bcf27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit Columns</value>
+      <webElementGuid>befd90a8-7fac-4c15-9447-c7f3efcf2bf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_RadGridTags_ctl00_ctl02_ctl00_LinkButtonColumns&quot;)</value>
+      <webElementGuid>f16264b2-0474-4754-bd4e-4683421037de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_ContentPlaceHolder1_RadGridTags_ctl00_ctl02_ctl00_LinkButtonColumns']</value>
+      <webElementGuid>3f411d4a-65a6-4b5a-a076-7fbf5563c2f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='ctl00_ContentPlaceHolder1_RadGridTags_ctl00']/thead/tr/td/div/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>a9576031-2d88-4ba1-8769-2817b2a77e3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Edit Columns')]</value>
+      <webElementGuid>d613c297-d1ad-44bd-a1c3-734119e5fcbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor'])[1]/following::a[1]</value>
+      <webElementGuid>42ac86cf-d96a-40f5-8967-e0d0fa8182e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer Number'])[1]/following::a[2]</value>
+      <webElementGuid>03eb957b-7597-45ba-a573-3283616c56bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Edit'])[1]/preceding::a[1]</value>
+      <webElementGuid>e217d353-4316-45ed-84a1-9c45ba4254b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Transfer'])[1]/preceding::a[2]</value>
+      <webElementGuid>dcecea87-c459-4789-89c9-3046a78af102</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit Columns']/parent::*</value>
+      <webElementGuid>4dafc8df-b62a-432a-b740-f54bd40749d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:__doPostBack('ctl00$ContentPlaceHolder1$RadGridTags$ctl00$ctl02$ctl00$LinkButtonColumns','')&quot;)]</value>
+      <webElementGuid>2aa0cd39-2761-4102-ad97-1a89b951ac3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//thead/tr/td/div/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>fcd5bb48-1c4a-4a0e-87db-4cc2c46b2292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_ContentPlaceHolder1_RadGridTags_ctl00_ctl02_ctl00_LinkButtonColumns' and @title = 'Edit Columns' and @href = concat(&quot;javascript:__doPostBack(&quot; , &quot;'&quot; , &quot;ctl00$ContentPlaceHolder1$RadGridTags$ctl00$ctl02$ctl00$LinkButtonColumns&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Edit Columns' or . = 'Edit Columns')]</value>
+      <webElementGuid>9a5fe8ef-8dd1-4c96-9208-ffc98d4c02cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

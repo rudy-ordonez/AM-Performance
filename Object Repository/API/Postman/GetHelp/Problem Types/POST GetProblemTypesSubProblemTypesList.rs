@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>POST GetProblemTypesSubProblemTypesList</name>
+   <tag></tag>
+   <elementGuidId>2ec6cab0-bb91-4464-8ee9-e9bc33b18226</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\&quot;pageNumber\&quot;: 0,\n\t\&quot;pageCount\&quot;: 0,\n\t\&quot;problemTypeID\&quot;:1,\n\t\&quot;includeDisabled\&quot;: false\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${HHD_API_Bearer}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${HHD_API_Url}/api/ProblemTypes/GetProblemTypesSubProblemTypesList</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Url</defaultValue>
+      <description></description>
+      <id>d520d046-26fe-4f16-8ef6-6d8e45445a76</id>
+      <masked>false</masked>
+      <name>HHD_API_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Bearer</defaultValue>
+      <description></description>
+      <id>1cf6752b-aad4-43e2-9dc1-f0a4fc943b26</id>
+      <masked>false</masked>
+      <name>HHD_API_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>POST AddPurchaseOrderHeaders</name>
+   <tag></tag>
+   <elementGuidId>fb49f28c-f75c-4cd2-8205-91f37770af96</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;[ { \&quot;OrderNumber\&quot;: \&quot;16662660B\&quot;,\r\n    \&quot;Status\&quot;: \&quot;Open\&quot;,\r\n    \&quot;VendorID\&quot;: \&quot;44646\&quot;,\r\n    \&quot;VendorName\&quot;: \&quot;DELL MARKETING L.P.\&quot;,\r\n    \&quot;SiteID\&quot;: \&quot;District\&quot;,\r\n    \&quot;PurchaseDate\&quot;: \&quot;2018-08-18T00:00:00.000Z\&quot;,\r\n    \&quot;EstimatedDeliveryDate\&quot;: null,\r\n    \&quot;Notes\&quot;: \&quot;Hayes Integration 2018-8-28 \&quot;,\r\n    \&quot;Other1\&quot;: null,\r\n    \&quot;StateFunding\&quot;: \&quot;99.99\&quot;,\r\n    \&quot;FederalFunding\&quot;: \&quot;0\&quot; },\r\n  { \&quot;OrderNumber\&quot;: \&quot;16662661B\&quot;,\r\n    \&quot;Status\&quot;: \&quot;Open\&quot;,\r\n    \&quot;VendorID\&quot;: \&quot;44646\&quot;,\r\n    \&quot;VendorName\&quot;: \&quot;DELL MARKETING L.P.\&quot;,\r\n    \&quot;SiteID\&quot;: \&quot;District\&quot;,\r\n    \&quot;PurchaseDate\&quot;: \&quot;2018-08-18T00:00:00.000Z\&quot;,\r\n    \&quot;EstimatedDeliveryDate\&quot;: null,\r\n    \&quot;Notes\&quot;: \&quot;Hayes Integration 2018-8-28 \&quot;,\r\n    \&quot;Other1\&quot;: null,\r\n    \&quot;StateFunding\&quot;: \&quot;50.5\&quot;,\r\n    \&quot;FederalFunding\&quot;: \&quot;49\&quot; },\r\n  { \&quot;OrderNumber\&quot;: \&quot;16662662B\&quot;,\r\n    \&quot;Status\&quot;: \&quot;Open\&quot;,\r\n    \&quot;VendorID\&quot;: \&quot;44646\&quot;,\r\n    \&quot;VendorName\&quot;: \&quot;DELL MARKETING L.P.\&quot;,\r\n    \&quot;SiteID\&quot;: \&quot;District\&quot;,\r\n    \&quot;PurchaseDate\&quot;: \&quot;2018-08-18T00:00:00.000Z\&quot;,\r\n    \&quot;EstimatedDeliveryDate\&quot;: null,\r\n    \&quot;Notes\&quot;: \&quot;Hayes Integration 2018-8-28 \&quot;,\r\n    \&quot;Other1\&quot;: null,\r\n    \&quot;StateFunding\&quot;: \&quot;10.25\&quot;,\r\n    \&quot;FederalFunding\&quot;: \&quot;56.25\&quot; },\r\n  { \&quot;OrderNumber\&quot;: \&quot;16662663B\&quot;,\r\n    \&quot;Status\&quot;: \&quot;Open\&quot;,\r\n    \&quot;VendorID\&quot;: \&quot;44646\&quot;,\r\n    \&quot;VendorName\&quot;: \&quot;DELL MARKETING L.P.\&quot;,\r\n    \&quot;SiteID\&quot;: \&quot;District\&quot;,\r\n    \&quot;PurchaseDate\&quot;: \&quot;2018-08-18T00:00:00.000Z\&quot;,\r\n    \&quot;EstimatedDeliveryDate\&quot;: null,\r\n    \&quot;Notes\&quot;: \&quot;Hayes Integration 2018-8-28 \&quot;,\r\n    \&quot;Other1\&quot;: null,\r\n    \&quot;StateFunding\&quot;: null,\r\n    \&quot;FederalFunding\&quot;: null } ]\r\n&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>95008e65-f423-43ce-abc8-5b0bc070d878</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${TIPWebAPI_Bearer}</value>
+      <webElementGuid>97772261-15c7-4dd3-90d5-484aed056851</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.5.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${TIPWebAPI_Url}/api/Integrations/PurchaseOrders/AddPurchaseOrderHeaders</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.TIPWebAPI_Url</defaultValue>
+      <description></description>
+      <id>c1638937-a4b4-4452-affc-cf6fe4a7ecfa</id>
+      <masked>false</masked>
+      <name>TIPWebAPI_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.TIPWebAPI_Bearer</defaultValue>
+      <description></description>
+      <id>b4b5e134-7ad5-425d-88cc-a54bf4c0d35c</id>
+      <masked>false</masked>
+      <name>TIPWebAPI_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

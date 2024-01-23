@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>PUT ChangeSLATarget</name>
+   <tag></tag>
+   <elementGuidId>e939915f-728b-4beb-8dd6-92533e427473</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\&quot;slaNumber\&quot;: 1,\n\t\&quot;name\&quot;: \&quot;Default SLA Target\&quot;,\n\t\&quot;description\&quot;: \&quot;\&quot;,\n\t\&quot;enabled\&quot;: true,\n\t\&quot;order\&quot;: 1,\n\t\&quot;slaTargetDetails\&quot;: [\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 1,\n\t\t\t\&quot;scheduleID\&quot;: 1,\n\t\t\t\&quot;targetValue\&quot;: 30,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 1\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 2,\n\t\t\t\&quot;scheduleID\&quot;: 1,\n\t\t\t\&quot;targetValue\&quot;: 1,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 2\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 3,\n\t\t\t\&quot;scheduleID\&quot;: 2,\n\t\t\t\&quot;targetValue\&quot;: 60,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 1\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 4,\n\t\t\t\&quot;scheduleID\&quot;: 2,\n\t\t\t\&quot;targetValue\&quot;: 2,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 2\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 5,\n\t\t\t\&quot;scheduleID\&quot;: 2,\n\t\t\t\&quot;targetValue\&quot;: 2,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 2\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 6,\n\t\t\t\&quot;scheduleID\&quot;: 2,\n\t\t\t\&quot;targetValue\&quot;: 1,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 3\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 7,\n\t\t\t\&quot;scheduleID\&quot;: 1,\n\t\t\t\&quot;targetValue\&quot;: 5,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 1\n\t\t},\n\t\t{\n\t\t\t\&quot;slaTargetDetailID\&quot;: 8,\n\t\t\t\&quot;scheduleID\&quot;: 1,\n\t\t\t\&quot;targetValue\&quot;: 1,\n\t\t\t\&quot;TargetTimeTypeID\&quot;: 4\n\t\t}\n\t],\n\t\&quot;lastModifiedByUserID\&quot;: 5\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${HHD_API_Bearer}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${HHD_API_Url}/api/SLATarget/ChangeSLATarget</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Url</defaultValue>
+      <description></description>
+      <id>644c8db7-8f38-4f11-ab64-cc6553adf87c</id>
+      <masked>false</masked>
+      <name>HHD_API_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Bearer</defaultValue>
+      <description></description>
+      <id>12efccb4-7377-4642-84ad-f4774e849a1e</id>
+      <masked>false</masked>
+      <name>HHD_API_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

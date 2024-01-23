@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View Details</name>
+   <tag></tag>
+   <elementGuidId>88cf7a2f-a061-40b3-9c38-0d77f8b50604</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'View Details')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_RadDock4_C_ctl00_LinkButtonViewReport</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>804cdbde-87f7-462d-845c-b034c5ebdca5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_RadDock4_C_ctl00_LinkButtonViewReport</value>
+      <webElementGuid>e4176d53-1e30-431c-a625-d5e2b9021d76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RadDock4$C$ctl00$LinkButtonViewReport&quot;, &quot;&quot;, false, &quot;&quot;, &quot;/TIPWebIT/UserManagement/UserReport.aspx?SelectedZone=4&quot;, false, true))</value>
+      <webElementGuid>9620fa1d-a2c5-4584-8d58-c50d2ad788b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Details</value>
+      <webElementGuid>0c03e463-1afe-4e6f-8353-0770ba082852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_RadDock4_C_ctl00_LinkButtonViewReport&quot;)</value>
+      <webElementGuid>a05777ab-4dc1-4f27-b960-7cd034eba03a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_ContentPlaceHolder1_RadDock4_C_ctl00_LinkButtonViewReport']</value>
+      <webElementGuid>24142cab-1841-4446-aa7d-d0329d285a73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_ContentPlaceHolder1_RadDock4_C_ctl00_DashboardView4']/div/table/tbody/tr/td/div/a</value>
+      <webElementGuid>ca84c3be-5744-4d3a-8274-33a706d0c36f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View Details')]</value>
+      <webElementGuid>cc6963a8-6596-4597-bb1d-ee2402d5e358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Logged In'])[1]/following::a[2]</value>
+      <webElementGuid>b505576b-97bb-4e78-ad66-d16d982785c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logged In'])[2]/following::a[3]</value>
+      <webElementGuid>ec02935a-213b-4042-84b6-db0569c1d9df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download .CSV'])[2]/preceding::a[1]</value>
+      <webElementGuid>bb0d1985-23b3-474c-ad74-8d7983c2a68e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View Details']/parent::*</value>
+      <webElementGuid>a45270fb-4bd5-4245-b740-97db36bf2bc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RadDock4$C$ctl00$LinkButtonViewReport&quot;, &quot;&quot;, false, &quot;&quot;, &quot;/TIPWebIT/UserManagement/UserReport.aspx?SelectedZone=4&quot;, false, true))')]</value>
+      <webElementGuid>1d5a6a22-0c50-4502-8f24-63c1ace248d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/a</value>
+      <webElementGuid>079483d9-dd14-4924-a3c3-d5c866e8be5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_ContentPlaceHolder1_RadDock4_C_ctl00_LinkButtonViewReport' and @href = 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RadDock4$C$ctl00$LinkButtonViewReport&quot;, &quot;&quot;, false, &quot;&quot;, &quot;/TIPWebIT/UserManagement/UserReport.aspx?SelectedZone=4&quot;, false, true))' and (text() = 'View Details' or . = 'View Details')]</value>
+      <webElementGuid>df50939e-f480-4de9-9aa0-08aef15cc7c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

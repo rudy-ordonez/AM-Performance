@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>PUT CreateRuleConditions</name>
+   <tag></tag>
+   <elementGuidId>a9d71dec-fd09-4717-b083-4277c1b1977f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;[\r\n\t{\r\n\t\t\&quot;automationRuleID\&quot;: 1004,\r\n\t\t\&quot;comparisonTypeID\&quot;: 1,\r\n\t\t\&quot;comparisonValue\&quot;: \&quot;\&quot;,\r\n\t\t\&quot;fieldID\&quot; : 5,\r\n\t\t\&quot;fieldOrigin\&quot;: \&quot;System\&quot;,\r\n\t\t\&quot;order\&quot;: 1,\r\n\t\t\&quot;comparisonValueListSelections\&quot;: [\r\n\t\t\t\&quot;1\&quot;,\r\n\t\t\t\&quot;2\&quot;\r\n\t\t]\r\n\t},\r\n\t{\r\n\t\t\&quot;automationRuleID\&quot;: 1004,\r\n\t\t\&quot;comparisonTypeID\&quot;: 1,\r\n\t\t\&quot;comparisonValue\&quot;: \&quot;\&quot;,\r\n\t\t\&quot;fieldID\&quot; : 22,\r\n\t\t\&quot;fieldOrigin\&quot;: \&quot;System\&quot;,\r\n\t\t\&quot;order\&quot;: 1,\r\n\t\t\&quot;comparisonValueListSelections\&quot;: [\r\n\t\t\t\&quot;3\&quot;,\r\n\t\t\t\&quot;2\&quot;\r\n\t\t]\r\n\t}\r\n]&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${HHD_API_Bearer}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${HHD_API_Url}/api/AutomationRules/1004/RuleConditions/CreateRuleConditions</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Url</defaultValue>
+      <description></description>
+      <id>6bbc2e7d-3f67-4f5f-8cfb-80599ccd3e64</id>
+      <masked>false</masked>
+      <name>HHD_API_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Bearer</defaultValue>
+      <description></description>
+      <id>06298b96-4a11-43e3-92e5-5b688a6f7b13</id>
+      <masked>false</masked>
+      <name>HHD_API_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

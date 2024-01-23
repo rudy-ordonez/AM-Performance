@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Audits</name>
+   <tag></tag>
+   <elementGuidId>e8bf2e79-e057-45a0-9661-73ec632cdae2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.rmLink.rmRootLink.rmExpanded > span.rmText.rmExpandDown</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ctl00_RadMenu1']/ul/li[6]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>38df27eb-bca6-4d68-b99f-14811deed53c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rmText rmExpandDown</value>
+      <webElementGuid>5db09da6-2338-4cc7-b023-29c3c237a894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Audits</value>
+      <webElementGuid>e07b975e-111a-4a01-b49c-1500d1b87eb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_RadMenu1&quot;)/ul[@class=&quot;rmRootGroup rmHorizontal&quot;]/li[@class=&quot;rmItem rmLast&quot;]/a[@class=&quot;rmLink rmRootLink rmExpanded&quot;]/span[@class=&quot;rmText rmExpandDown&quot;]</value>
+      <webElementGuid>44aed125-b0c9-4af8-85bd-d9b2f724318a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_RadMenu1']/ul/li[6]/a/span</value>
+      <webElementGuid>8454e8d3-b881-448b-ba4d-2823b5d69ec7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T'])[1]/following::span[1]</value>
+      <webElementGuid>f2489f7b-ebf7-4628-8e31-221c0f9e1e62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Site Audits'])[1]/preceding::span[1]</value>
+      <webElementGuid>671c95bf-5084-4037-b4d1-1e1664a162c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='udits']/parent::*</value>
+      <webElementGuid>23ae5927-a206-42a9-8382-007b78f0941d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/span</value>
+      <webElementGuid>e793d090-fc19-435f-8e75-99dd1a6172b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Audits' or . = 'Audits')]</value>
+      <webElementGuid>cc54378a-e971-49c3-ba63-8f9a8b04ee8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

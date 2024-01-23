@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "781EAF770D8807ED562DF6675866497E",
+  "keywordClasses": [
+    {
+      "name": "api.ITtoken",
+      "keywordMethods": [
+        {
+          "name": "Token",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Add Record</name>
+   <tag></tag>
+   <elementGuidId>3fe2a7ef-b016-483d-bac0-815c8466f7c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_RadGridHardware_ctl00_ctl02_ctl00_LinkButtonAddRecord</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_ContentPlaceHolder1_RadGridHardware_ctl00_ctl02_ctl00_LinkButtonAddRecord']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c56f3595-58f1-4431-87f0-d8a52ec84f20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_RadGridHardware_ctl00_ctl02_ctl00_LinkButtonAddRecord</value>
+      <webElementGuid>cb0c0446-9062-48b4-95a9-4112d3266bfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RadGridHardware$ctl00$ctl02$ctl00$LinkButtonAddRecord&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))</value>
+      <webElementGuid>3ac6dacb-57ff-47f8-bb3a-3122f8dbed0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Record</value>
+      <webElementGuid>d5199df8-d4a7-4e03-893a-72fb22eb2725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_RadGridHardware_ctl00_ctl02_ctl00_LinkButtonAddRecord&quot;)</value>
+      <webElementGuid>7cc87302-007c-4a74-b748-77f984447612</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_ContentPlaceHolder1_RadGridHardware_ctl00_ctl02_ctl00_LinkButtonAddRecord']</value>
+      <webElementGuid>080faf00-d24a-4aee-9b7d-e0a4ad596607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='ctl00_ContentPlaceHolder1_RadGridHardware_ctl00_ctl02_ctl00_Add2']/a</value>
+      <webElementGuid>f0e64c26-50ec-4a85-90a4-a94aa5448ec8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add Record')]</value>
+      <webElementGuid>a938abb2-d658-4fd1-9cee-5aa7e3dc9c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Off'])[1]/following::a[1]</value>
+      <webElementGuid>e515a4d6-dc01-4b14-8c86-9cf500d35a1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Inactive'])[1]/preceding::a[1]</value>
+      <webElementGuid>333c04fd-a0a8-4548-9f8c-d6087149af46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='select'])[2]/preceding::a[2]</value>
+      <webElementGuid>ba9495da-3b62-49f9-bbe3-7f71c5700b15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Record']/parent::*</value>
+      <webElementGuid>a0a037cf-785e-4cec-94e5-e81f2b3c2914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RadGridHardware$ctl00$ctl02$ctl00$LinkButtonAddRecord&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))')]</value>
+      <webElementGuid>f5fca942-b2e1-487d-9ecc-5496b388cac4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>c86424b5-378b-4d9c-b31e-2e8c932edf2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_ContentPlaceHolder1_RadGridHardware_ctl00_ctl02_ctl00_LinkButtonAddRecord' and @href = 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RadGridHardware$ctl00$ctl02$ctl00$LinkButtonAddRecord&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))' and (text() = 'Add Record' or . = 'Add Record')]</value>
+      <webElementGuid>011592f8-c9dd-4b7c-8d23-d4cf2086e9bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

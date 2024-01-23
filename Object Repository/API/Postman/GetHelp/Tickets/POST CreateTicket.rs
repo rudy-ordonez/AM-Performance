@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>POST CreateTicket</name>
+   <tag></tag>
+   <elementGuidId>8b98740f-41df-45e9-ad92-492ad1628acb</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;TicketSummary\&quot;: \&quot;New ticket\&quot;,\r\n    \&quot;TicketTypeID\&quot;: \&quot;0\&quot;,\r\n    \&quot;StatusID\&quot;: \&quot;0\&quot;,\r\n    \&quot;TicketPriorityID\&quot;: \&quot;3\&quot;,\r\n    \&quot;AssignedToUserID\&quot;: -1,\r\n    \&quot;CreatedByUserID\&quot;: \&quot;0\&quot;,\r\n    \r\n    \&quot;TicketDetails\&quot;: {\r\n        \&quot;TicketDescription\&quot;: \&quot;Data!!!!\&quot;,\r\n        \&quot;ProblemTypeID\&quot;: \&quot;5\&quot;,\r\n        \&quot;Notes\&quot;: \&quot;Nothing\&quot;,\r\n        \&quot;Resolved\&quot;: false,\r\n        \&quot;Resolution\&quot;: \&quot;\&quot;,\r\n        \&quot;ResolutionDate\&quot;: null,\r\n        \&quot;ResolutionBy\&quot;: \&quot;0\&quot;,\r\n        \&quot;CreatedByEmail\&quot;: \&quot;false\&quot;,\r\n        \&quot;TicketSourceID\&quot;: 1\r\n    },\r\n    \&quot;TicketAssociatedTag\&quot;: [\r\n        {\r\n            \&quot;InventoryID\&quot;: \&quot;977592\&quot;,\r\n            \&quot;Tag\&quot;: \&quot;TAG1\&quot;,\r\n            \&quot;Serial\&quot;: \&quot;tag1\&quot;,\r\n            \&quot;SiteUid\&quot;: \&quot;764\&quot;,\r\n            \&quot;SiteID\&quot;: \&quot;25-jack\&quot;,\r\n            \&quot;SiteName\&quot;: \&quot;jacks valley elementary school\&quot;,\r\n            \&quot;EntityID\&quot;: \&quot;43098\&quot;,\r\n            \&quot;EntityTypeID\&quot;: \&quot;3\&quot;,\r\n            \&quot;EntityName\&quot;: \&quot;Staff\&quot;,\r\n            \&quot;StatusID\&quot;: \&quot;31\&quot;,\r\n            \&quot;StatusDesc\&quot;: \&quot;In Use\&quot;,\r\n            \&quot;ItemID\&quot;: \&quot;280839\&quot;,\r\n            \&quot;ItemName\&quot;: \&quot;pragya123\&quot;,\r\n            \&quot;ItemTypeID\&quot;: \&quot;275\&quot;,\r\n            \&quot;ItemTypeName\&quot;: \&quot;001CF\&quot;,\r\n            \&quot;ManufacturerID\&quot;: \&quot;7714\&quot;,\r\n            \&quot;ManufacturerName\&quot;: \&quot;(Baker)\&quot;,\r\n            \&quot;ModelNumber\&quot;: \&quot;\&quot;,\r\n            \&quot;FundingSourceID\&quot;: \&quot;23047\&quot;,\r\n            \&quot;FundingSource\&quot;: \&quot;00000012\&quot;,\r\n            \&quot;VendorID\&quot;: \&quot;6777\&quot;,\r\n            \&quot;VendorName\&quot;: \&quot;(Baker)\&quot;,\r\n            \&quot;PurchasePrice\&quot;: \&quot;100\&quot;,\r\n            \&quot;CreatedByUserID\&quot;: \&quot;0\&quot;,\r\n            \&quot;ResolutionAssociation\&quot;: false\r\n        }\r\n  \t]\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${HHD_API_Bearer}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${HHD_API_Url}/api/Ticket/CreateTicket</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Url</defaultValue>
+      <description></description>
+      <id>8b066a32-c478-4ab6-acab-db9cdec9c7e1</id>
+      <masked>false</masked>
+      <name>HHD_API_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.HHD_API_Bearer</defaultValue>
+      <description></description>
+      <id>e0ba8ef4-76f8-4d00-9f8e-b8543f1efb62</id>
+      <masked>false</masked>
+      <name>HHD_API_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

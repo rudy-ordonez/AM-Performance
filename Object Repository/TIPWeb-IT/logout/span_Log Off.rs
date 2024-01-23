@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Log Off</name>
+   <tag></tag>
+   <elementGuidId>15241dcb-df0c-4940-9f8a-faa0e756c2e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li/div/div/ul/li[2]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rmScrollWrap.rmGroup.rmLevel1 > ul.rmVertical > li.rmItem.rmLast > a.rmLink > span.rmText</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ada87371-6072-4ae6-b3d2-6c6cfe72359d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rmText</value>
+      <webElementGuid>42f14ec0-13e9-4201-9090-f6b4db4aaf29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log Off</value>
+      <webElementGuid>9a86e9b7-37d2-439f-9187-c8990a5c7b60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_RadMenuUserOptions&quot;)/ul[@class=&quot;rmRootGroup rmToggleHandles rmHorizontal&quot;]/li[@class=&quot;rmItem rmFirst rmLast&quot;]/div[@class=&quot;rmSlide&quot;]/div[@class=&quot;rmScrollWrap rmGroup rmLevel1&quot;]/ul[@class=&quot;rmVertical&quot;]/li[@class=&quot;rmItem rmLast&quot;]/a[@class=&quot;rmLink&quot;]/span[@class=&quot;rmText&quot;]</value>
+      <webElementGuid>00fa4d02-e6bf-4d1d-b436-7ab9c1c3a7ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_RadMenuUserOptions']/ul/li/div/div/ul/li[2]/a/span</value>
+      <webElementGuid>42eef343-4224-40c6-959e-f78873719ec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Settings'])[1]/following::span[1]</value>
+      <webElementGuid>588a1dda-4e58-43f7-af30-04395558b83f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toggle'])[1]/following::span[2]</value>
+      <webElementGuid>6781880f-bff1-42c3-b25d-d683484297c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CPS_Test Inventory Statistics: All Regions, All Sites, All Product Typ...'])[1]/preceding::span[2]</value>
+      <webElementGuid>e59fa9f5-2776-40a0-857d-69ef402adff0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log Off']/parent::*</value>
+      <webElementGuid>a230a8c1-353c-46e4-8105-ed5b007c9f1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/div/ul/li[2]/a/span</value>
+      <webElementGuid>62c15b16-07a0-42f3-b961-002774ff14af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

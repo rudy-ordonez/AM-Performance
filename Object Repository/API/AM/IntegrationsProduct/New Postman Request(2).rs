@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>New Postman Request(2)</name>
+   <tag></tag>
+   <elementGuidId>5d02dab9-bba6-41e9-92ae-409a1c889435</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;[\r\n    {\r\n        \&quot;ProductNumber\&quot;: 0, \r\n        \&quot;ProductName\&quot;: \&quot;20 UNIT NOTEBOOK STORAGE CART\&quot;,\r\n        \&quot;ProductDescription\&quot;: \&quot;20 UNIT NOTEBOOK STORAGE CART\&quot;,\r\n        \&quot;ProductType\&quot;: \&quot;Unspecified\&quot;,\r\n        \&quot;Model\&quot;: \&quot;None\&quot;,\r\n        \&quot;Manufacturer\&quot;: \&quot;None\&quot;,\r\n        \&quot;SuggestedPrice\&quot;: 1064.00,\r\n        \&quot;Notes\&quot;: \&quot;Hayes Integration 05/21/2018\&quot;,\r\n        \&quot;SKU\&quot;: \&quot;\&quot;,\r\n        \&quot;ProjectedLife\&quot;: 0,\r\n        \&quot;CustomField1\&quot;: null,\r\n        \&quot;CustomField2\&quot;: null,\r\n        \&quot;CustomField3\&quot;: null\r\n    }\r\n]&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>abce8c6f-f693-44fc-825d-88325c8153f5</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${TIPWebAPI_Bearer}</value>
+      <webElementGuid>21794f64-bfb6-4370-90f6-3b3b5a7c9a1f</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.5.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${TIPWebAPI_Url}/api/Integrations/Products/UpsertProducts</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.TIPWebAPI_Url</defaultValue>
+      <description></description>
+      <id>d4af730c-4a08-4ad5-8a67-81ab78032c44</id>
+      <masked>false</masked>
+      <name>TIPWebAPI_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.TIPWebAPI_Bearer</defaultValue>
+      <description></description>
+      <id>aad3de13-87b1-4879-a846-36a031d986a2</id>
+      <masked>false</masked>
+      <name>TIPWebAPI_Bearer</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
